@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import Image from "next/image";
 
 export default function Home() {
@@ -101,3 +102,19 @@ export default function Home() {
     </div>
   );
 }
+=======
+import React from 'react'
+import Header from './_components/Header'
+import Hero from './_components/Hero'
+
+const page = () => {
+  return (
+    <main>
+      <Header />
+      <Hero />
+    </main>
+  )
+}
+
+export default page
+>>>>>>> 8ec0f44 (01 Landing Page Setup)
