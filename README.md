@@ -1,3 +1,22 @@
+# CodeCraft AI
+### Instant Full-Stack Web Application Generator
+
+**Transform ideas into production-ready web applications in minutes.** Describe what you need in plain English, and our AI generates clean, functional code—complete frontend, backend, and database. No setup, no configuration complexity. Build, edit, and deploy in minutes instead of weeks.
+
+## 🚀 Features
+- **Instant Generation**: Convert descriptions to complete applications
+- **Full-Stack Ready**: Frontend, backend, and database setup
+- **Clean Code**: Production-quality, maintainable codebase
+- **Zero Configuration**: Skip complex setup and deployment headaches
+- **Rapid Iteration**: Edit and redeploy in minutes
+
+## 💡 How It Works
+1. **Describe** your application idea or requirements
+2. **Generate** complete, functional code instantly
+3. **Edit** and customize as needed
+
+<hr>
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
