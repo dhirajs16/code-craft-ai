@@ -1,5 +1,6 @@
-"use client"
+"use client";
 import { Button } from "@/components/ui/button";
+import { SignInButton } from "@clerk/nextjs";
 import {
   ArrowUp,
   HomeIcon,
@@ -42,6 +43,7 @@ const Hero = () => {
 
   return (
     <section className="flex flex-col items-center justify-center h-[80vh] w-screen">
+      
       {/* Hero Description */}
       <h1 className="text-6xl md:text-7xl font-bold bg-linear-to-r from-blue-600 to-purple-700 bg-clip-text text-transparent mb-6">
         Build something crafty.
@@ -60,12 +62,17 @@ const Hero = () => {
           className="h-24 w-full resize-none focus:outline-none"
         ></textarea>
         <div className="flex items-center justify-between">
+          {/* Add file Button */}
           <Button variant={"ghost"}>
             <ImagePlus />
           </Button>
-          <Button>
-            <ArrowUp />
-          </Button>
+
+          {/* Execute Button */}
+          <SignInButton mode="modal" forceRedirectUrl={"/workspace"}>
+            <Button disabled={!promptInput}>
+              <ArrowUp />
+            </Button>
+          </SignInButton>
         </div>
       </div>
 
